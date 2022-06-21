@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#container{
+    background: url("./background.jpeg");
+    padding-bottom: 140px;
+}
+#logo-netflix{
+    height: 35px;
+}
+#botao-entrar{
+    
+    background-color: #e50914;
+    line-height: 25px;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 1rem;
+    float: right;
+    border: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#cabecalho-netflix{
+    padding: 28px 56px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+#paragrafo-assista{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+
+}
+#paragrafo-pronto{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+input{
+    width: 500px;
+    padding-left: 5px;
+}
+#botao-email{
+    width: 250px;
+    background-color: #e50914;
+    border:30px;
+    font-size: 28px;
+    cursor: pointer;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    height: 50px;
+    
+}
+#rodape{
+    background-color: #000000;
+    border-top: 4px solid #303030;
+    padding: 100px 0px;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+
+}
+#botao-pergunta{
+    width: 800px;
+    background-color: #303030;
+    height: 60px;
+    border: 0;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: left;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+}
+#imagem-pergunta {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(45deg); 
+}
+#imagem-pergunta-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+
+#pergunta {
+    width: 800px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3px;
+    padding: 24px;
+    display: none;
+}
+
+.paragrafo-pergunta {
+    font-size: 24px;
+}
